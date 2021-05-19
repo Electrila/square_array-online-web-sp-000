@@ -3,5 +3,5 @@ def square_array(array)
   # array.each { |num| squared_nums << num ** 2 }
   # squared_nums
   
-  array.collect {
+  array.collect { |num| num ** 2 }
 end
